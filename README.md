@@ -1,24 +1,34 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Product Card
+
+Develop a simple product card component for an e-commerce website. The card should display the product image, title, price, and a button to add the product to the cart.
+
+## Screenshot
+
+| Desktop                                                                                   | Mobile                                                                                         |
+| ----------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
+| ![Product Card Desktop Screenshot](public/assets/screenshot/Macbook-Air-Product-Card.png) | ![Product Card Mobile Screenshot](public/assets/screenshot/iPhone-13-PRO-MAX-Product-Card.png) |
 
 ## Getting Started
 
-First, run the development server:
+First, clone the repository:
+
+```bash
+git clone git@github.com:didapatria/Product-Card.git
+```
+
+Second, install the dependencies:
+
+```bash
+npm install
+```
+
+Third, run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
 ## Learn More
 
